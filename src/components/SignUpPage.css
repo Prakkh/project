@@ -1,0 +1,62 @@
+/* SignUpPage.css */
+
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #000000;
+}
+
+.dragon-logo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dragon-logo img {
+  width: 350px;
+  height: 350px;
+}
+
+.signup-form {
+  width: 50%;
+  background-color: #333;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-right: 50px;
+}
+
+.signup-form h2 {
+  color: #fff;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.signup-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.signup-form input::placeholder {
+  color: #aaa;
+}
+
+.signup-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #ddd;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.signup-form button:hover {
+  background-color: #bbb;
+}
